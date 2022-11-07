@@ -13,7 +13,7 @@ function App() {
     );
 }
 
-function Technologies() {
+function Technologies()  {
     return (
         <div>
             <ul>

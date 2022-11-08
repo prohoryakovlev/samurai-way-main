@@ -7,5 +7,4 @@ function OpenGoogle() {
         </div>
     )
 }
-
 export default OpenGoogle;

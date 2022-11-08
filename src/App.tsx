@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import OpenAllMaps from "./maps.";
 
 function App() {
     return (
@@ -7,7 +8,7 @@ function App() {
             <Header/>
             <Technologies/>
             <div className="App">
-
+            <OpenAllMaps />
             </div>
         </div>
     );

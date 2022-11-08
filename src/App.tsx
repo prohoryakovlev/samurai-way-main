@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import OpenAllMaps from "./maps.";
+import Technologies from "./Technologies";
+import Header from "./Header";
 
 function App() {
     return (
@@ -13,28 +15,4 @@ function App() {
         </div>
     );
 }
-
-function Technologies()  {
-    return (
-        <div>
-            <ul>
-                <li>css</li>
-                <li>html</li>
-                <li>js</li>
-                <li>react</li>
-            </ul>
-        </div>
-    )
-}
-
-function Header() {
-    return (
-        <div>
-            <a>Home</a>
-            <a>News Feed</a>
-            <a>Messages</a>
-        </div>
-    )
-}
-
 export default App;

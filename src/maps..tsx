@@ -2,7 +2,7 @@ import React from 'react';
 import OpenYandex from './yandex';
 import OpenGoogle from './google';
 
-function OpenAllMaps() {
+function OpenAllMaps () {
     return (
         <div>
             <OpenGoogle/>

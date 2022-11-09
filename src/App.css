@@ -11,7 +11,7 @@
     /*grid-gap: 10px;*/
 }
 
-.header {
+.Header {
     grid-area: h;
     background-color: green;
 }

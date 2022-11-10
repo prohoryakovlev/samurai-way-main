@@ -12,7 +12,7 @@ const Profile = () => {
             <div>
                 ava + description
             </div>
-            <MyPosts/>
+            <MyPosts hey={"Prohor Yakovlev"}/>
         </nav>
     )
 }

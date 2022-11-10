@@ -13,7 +13,7 @@ import Profile from "./components/Profile";
 function App() {
     return (
         <div className="App">
-            <Header title={"NEW IMAGES"}/>
+            <Header />
             <Navbar/>
             <Profile/>
         </div>

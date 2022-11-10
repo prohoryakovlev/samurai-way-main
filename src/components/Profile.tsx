@@ -1,10 +1,10 @@
 import React from "react";
-import "./Profile.css";
+import s from "./Profile.module.css";
 
 
 const Profile = () => {
     return (
-        <nav className={"content"}>
+        <nav className={s.content}>
             <div>
                 <img src="http://4everstatic.com/pictures/850xX/nature/horizon,-river,-panorama-184711.jpg"/>
             </div>
@@ -16,8 +16,8 @@ const Profile = () => {
                 <div>
                     New post
                 </div>
-                <div>
-                    <div>
+                <div className={s.posts}>
+                    <div className={s.item}>
                         post 1
                     </div>
                     <div>

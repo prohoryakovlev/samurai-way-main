@@ -1,13 +1,11 @@
 import React from "react";
-import "./Header.css";
+import s from "./Header.module.css";
 
-type ImagesType ={
-    title:string
-}
 
-const Header = (props:ImagesType) => {
+
+const Header = () => {
     return (
-        <div >
+        <div className={s.header}>
             <img  src="https://cs6.pikabu.ru/avatars/141/v141934.jpg"/>
         </div>
     )

@@ -10,7 +10,11 @@ const Post = () => {
             <div>
                 <span>Like</span>
             </div>
+
+
         </div>
+
+
     )
 }
 export default Post

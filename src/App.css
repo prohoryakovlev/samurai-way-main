@@ -1,4 +1,4 @@
-.App {
+.app-wrapper {
     margin: 0 auto;
     display: grid;
     width: 1200px;
@@ -11,6 +11,10 @@
     /*grid-gap: 10px;*/
 }
 
+.app-wrapper-contend {
+    grid-area: c;
+    background-color: cornflowerblue;
+}
 
 
 .App-logo {

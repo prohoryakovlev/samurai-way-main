@@ -12,16 +12,17 @@ import {log} from "util";
 // }
 
 
-
-const MyPosts = (props:any) => {
+const MyPosts = (props: any) => {
     console.log(props.hey)
     return (
-        <div>
-            <div>My Post</div>
-
-            <textarea></textarea>
-            <button>Add post</button>
-
+        <div className={s.postsBlock}>
+            <h3>My Post</h3>
+            <div>
+                <textarea></textarea>
+            </div>
+            <div>
+                <button>Add post</button>
+            </div>
 
             <div className={s.posts}>
                 <Post message={"Hi, how are you?"} likesCount={0}/>

@@ -4,6 +4,10 @@
     background-color: burlywood;
 }
 
-.item.a {
+.item a {
+    color: white;
+}
+
+.item a {
     color: white;
 }

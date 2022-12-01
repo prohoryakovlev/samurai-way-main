@@ -15,12 +15,15 @@ import {log} from "util";
 const MyPosts = (props: any) => {
     console.log(props.hey)
 
-    let postData = [
+    let posts = [
         {id: 1, message: "Hi, how are you?", likesCount: 12},
         {id: 2, message: "Its my first post", likesCount: 11},
+        {id: 3, message: "Blabla", likesCount: 13},
+        {id: 4, message: "Dadad", likesCount: 15},
 
     ]
-
+    let postsElement = posts.map(p =>
+        <Post message={p.message} likesCount={p.likesCount}/>)
     return (
         <div className={s.postsBlock}>
             <h3>My Post</h3>
@@ -32,10 +35,7 @@ const MyPosts = (props: any) => {
             </div>
 
             <div className={s.posts}>
-                <Post message={postData[0].message} likesCount={postData[0].likesCount}/>
-                <Post message={postData[1].message} likesCount={postData[1].likesCount}/>
-
-
+                {postsElement}
             </div>
         </div>
     )

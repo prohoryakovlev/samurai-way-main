@@ -9,6 +9,7 @@
 
 .dialogsItems {
     padding: 10px;
+    color: white;
 }
 .dialog{
 
@@ -21,6 +22,6 @@
     padding: 10px;
 }
 
-.message {
-
+.message.message {
+    color: white;
 }

@@ -3,9 +3,7 @@ import s from './../Dialogs.module.css'
 
 
 type Message = {
-    name: string
-    id: number
-    message: any
+    message: string
 }
 
 const Message = (props: Message) => {

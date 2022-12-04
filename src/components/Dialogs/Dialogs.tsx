@@ -1,5 +1,5 @@
 import React from "react";
-import s from './../Dialogs.module.css'
+import s from './Dialogs.module.css'
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
 
@@ -36,7 +36,7 @@ const Dialogs = (props: MessageType) => {
         <DialogItem name={d.name} id={d.id}/>
     )
     let messagesElements = messages.map(m =>
-        <Message message={m.message} id={m.id}/>
+        <Message message={m.message} />
     )
 
 

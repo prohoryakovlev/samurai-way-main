@@ -5,10 +5,12 @@ import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 
 const Profile = () => {
+
+
     return (
         <nav>
             <ProfileInfo/>
-            <MyPosts/>
+            <MyPosts />
         </nav>
     )
 }

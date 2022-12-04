@@ -3,6 +3,7 @@ import s from "./MyPosts.module.css";
 import Post from "./Post/Post"
 
 
+
 //
 // type PostsType = {
 //     title: string
@@ -11,16 +12,7 @@ import Post from "./Post/Post"
 
 
 const MyPosts = (props: any) => {
-    console.log(props.hey)
-
-    let posts = [
-        {id: 1, message: "Hi, how are you?", likesCount: 12},
-        {id: 2, message: "Its my first post", likesCount: 11},
-        {id: 3, message: "Blabla", likesCount: 13},
-        {id: 4, message: "Dadad", likesCount: 15},
-
-    ]
-    let postsElement = posts.map(p =>
+    let postsElement = props.posts.map((p: { message: any; likesCount: any; }) =>
         <Post message={p.message} likesCount={p.likesCount}/>)
     return (
         <div className={s.postsBlock}>

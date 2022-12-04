@@ -1,10 +1,7 @@
 import React from 'react';
 import './App.css';
-import OpenAllMaps from "./maps.";
-import Technologies from "./Technologies";
 
-import Footer from "./Footer";
-import Navigation from "./Navigation";
+
 import Header from "./components/Header/Header";
 import Navbar from "./components/NavBar/Navbar";
 import Profile from "./components/Profile/Profile";
@@ -24,6 +21,12 @@ function App() {
                 <div className={"app-wrapper-contend"}>
                     <Route path={"/dialogs"} component={Dialogs}/>
                     <Route path={"/profile"} component={Profile}/>
+
+
+                    <Route path={"/dialogs"} render={()=> Dialogs}/>
+                    <Route path={"/profile"} render={()=> Profile}/>
+
+
                     <Route path={"/news"} component={News}/>
                     <Route path={"/music"} component={Music}/>
                     <Route path={"/settings"} component={Settings}/>

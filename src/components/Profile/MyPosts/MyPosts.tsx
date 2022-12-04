@@ -1,8 +1,6 @@
 import React from "react";
 import s from "./MyPosts.module.css";
 import Post from "./Post/Post"
-import {message} from "antd";
-import {log} from "util";
 
 
 //
